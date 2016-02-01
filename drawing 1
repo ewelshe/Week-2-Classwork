@@ -1,0 +1,12 @@
+void setup (){
+size(500,500);
+background(170);
+}
+
+void draw(){
+  int i=0;
+  while (i< 91){
+ line (20+i*5, 20, 20+i*5, height -20);
+ i=i+1;
+}
+}
